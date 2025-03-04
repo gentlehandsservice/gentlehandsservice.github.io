@@ -1,0 +1,339 @@
+/* BASIC RESETS & STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+/*****************************************************
+  HEADER
+*****************************************************/
+.site-header {
+  background-color: #f25c05; /* Main brand color or choose your own */
+  padding: 1rem 2rem;
+}
+
+/* Use a container to keep content centered and aligned */
+.header-container {
+  max-width: 1200px; /* or any width you prefer */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo (site title) styling */
+.logo h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+}
+
+/* Navigation menu */
+.top-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem; /* space between menu items */
+  margin: 0;
+  padding: 0;
+}
+
+/* Individual nav items */
+.top-nav li {
+  margin: 0;
+}
+
+/* Nav links */
+.top-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+/* Hover effect on links */
+.top-nav a:hover {
+  color: #ffefdc; /* a lighter color or any accent color */
+  text-decoration: underline;
+}
+
+  
+  .top-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1rem;
+  }
+  
+  .top-nav li {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* HERO SECTION */
+  .hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #f8f8f8;
+  }
+  
+  .hero-text {
+    flex: 1 1 400px;
+    margin-right: 2rem;
+  }
+  
+  .hero-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .hero-text p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+  }
+  
+  .cta-button {
+    background-color: #f25c05; /* Orange button color */
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .hero-image {
+    flex: 1 1 300px;
+    text-align: center;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  /* OUR PHILOSOPHY SECTION */
+  .philosophy-section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f25c05; /* Orange background */
+    color: #fff;
+    padding: 2rem;
+  }
+  
+  .philosophy-content {
+    flex: 1 1 400px;
+    margin-right: 2rem;
+  }
+  
+  .philosophy-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .philosophy-content p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .read-more {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: #fff;
+    color: #f25c05;
+    text-decoration: none;
+    padding: 0.6rem 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .philosophy-image {
+    flex: 1 1 300px;
+    text-align: center;
+  }
+  
+  .philosophy-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  /* TESTIMONIALS SECTION */
+  .testimonials-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+  }
+  
+  .testimonials-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonials-section p {
+    font-size: 1rem;
+  }
+  
+  /* FOOTER / CONTACT US */
+ /*****************************************************
+  FOOTER
+*****************************************************/
+.site-footer {
+  background-color: #f25c05; /* or your brand color */
+  color: #fff;
+  padding: 2rem 1rem;
+  margin-top: 2rem; /* space above footer, optional */
+}
+
+.footer-container {
+  max-width: 1200px;  /* keep content centered */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;    /* allows stacking on smaller screens */
+  gap: 1rem;          /* space between columns on wrap */
+}
+
+/* CONTACT INFO COLUMN */
+.footer-info {
+  flex: 1 1 300px;    /* allow flexible width with a min size */
+  margin-right: 1rem;
+}
+
+.footer-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-info p {
+  margin-bottom: 0.5rem;
+}
+
+/* FOOTER NAV COLUMN */
+.footer-nav {
+  flex: 1 1 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav li {
+  /* optional additional styles */
+}
+
+.footer-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+  color: #ffefdc; /* a lighter or contrasting color on hover */
+  text-decoration: underline;
+}
+
+/* FOOTER BOTTOM (COPYRIGHT) */
+
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+  
+  /* Example: Additional styles for team page */
+.team-section {
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.team-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section-intro {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.team-member {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1.5rem;
+}
+
+.team-image {
+  flex: 1 1 250px;
+  margin-right: 2rem;
+  text-align: center;
+}
+
+.team-image img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.team-info {
+  flex: 2 1 300px;
+}
+
+.team-info h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Example: Additional styles for philosophy page */
+.philosophy-page-section {
+  padding: 2rem;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.philosophy-page-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.philosophy-details {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.philosophy-details p {
+  margin-bottom: 1rem;
+}
